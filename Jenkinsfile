@@ -22,5 +22,6 @@ node {
       junit '**/target/surefire-reports/TEST-*.xml'
       jacoco()
       archiveArtifacts 'target/*.jar'
+      mail bcc: '', body: 'test', cc: '', from: '', replyTo: '', subject: 'test', to: 'root'
    }
 }
