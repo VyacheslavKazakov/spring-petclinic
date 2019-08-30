@@ -20,7 +20,7 @@ node {
    }
    stage('Results') {
       junit '**/target/surefire-reports/TEST-*.xml'
-      [ $class: 'JacocoPublisher' ]
+      jacoco()
       archiveArtifacts 'target/*.jar'
    }
 }
