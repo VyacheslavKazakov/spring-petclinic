@@ -85,7 +85,6 @@ version. Otherwise, run the application by right clicking on the `PetClinicAppli
 `Run 'PetClinicApplication'`.
 
 4) Navigate to Petclinic
-
 Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
 
